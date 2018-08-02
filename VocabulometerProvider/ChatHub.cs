@@ -10,7 +10,7 @@ namespace VocabulometerProvider
         {
             if (Program.lastGazePoint != null)
             {
-                Clients.Caller.onGazePoint(Program.lastGazePoint.X, Program.lastGazePoint.Y);
+                Clients.Caller.onGazePoin(Program.lastGazePoint.X, Program.lastGazePoint.Y);
             }
 
             Program.locker.WaitOne();
