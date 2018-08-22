@@ -17,7 +17,7 @@ namespace VocabulometerProvider
         public static bool saveData = false; // save fixation in json file or not
         public static bool reading = false; // if the fixation was a reading fixation or not
         public static int nbFixations = 0;
-        private static short seqLength = 1000; // ms
+        private static short seqLength = 500; // ms
 
         static void Main(string[] args)
         {
