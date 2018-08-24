@@ -16,17 +16,6 @@ namespace VocabulometerProvider
                 "juliette", "juliette-bis", "lea", "lea-bis", "mathilde",
                 "pierre", "william", "samuel", "ag"};
 
-        float fixationDurationMean; //=>difficulty ?
-        float fixationsNumberVariance;
-        int fixationsNumber;
-
-        float saccadeLengthMedian; //outliers would not affect with median
-        float saccadeLenghtVariance;
-        float saccadeVelocityXMean;
-        float saccadeVelocityYMean;
-
-        List<float> angleSaccade; //amplitude
-
         public static void describeAll()
         {
             //string[] participant = new string[] { "lea" };
